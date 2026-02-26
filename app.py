@@ -42,4 +42,5 @@ def extraer_imagenes():
 
 # Este es el arranque para el servidor
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    # Esto asegura que si se ejecuta manualmente use el puerto 10000
+    app.run(host='0.0.0.0', port=10000)
